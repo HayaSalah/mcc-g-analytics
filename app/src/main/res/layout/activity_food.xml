@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".food"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/meals"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="#FF1706"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="80dp"
+        android:text="Meals" />
+
+    <Button
+        android:id="@+id/desserts"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="80dp"
+
+        android:text="Desserts"
+        android:background="#FF1706"
+        />
+
+    <Button
+        android:id="@+id/drinks"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="10dp"
+        android:text="Drinks"
+        android:background="#FF1706"/>
+
+</LinearLayout>
